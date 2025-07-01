@@ -1,0 +1,22 @@
+{
+  "name": "agents-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.13.0",
+    "@genkit-ai/vertexai": "^1.14.0",
+    "@types/node": "^24.0.7",
+    "axios": "^1.10.0",
+    "data-urls": "^5.0.0",
+    "genkit": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/data-urls": "^3.0.4"
+  }
+}
