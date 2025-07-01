@@ -8,7 +8,7 @@ import axios from "axios";
 const API_URL_BASE =
   "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&";
 
-const API_KEY = "AIzaSyCesArocSCxPIxI-RFSOV9AwMzaijPqSjw";
+const API_KEY = "API_KEY";
 
 const ai = genkit({
   plugins: [googleAI(), vertexAI()],
